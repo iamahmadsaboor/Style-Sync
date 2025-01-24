@@ -120,6 +120,8 @@ export default function Home() {
     }
   };
 
+  alert("Welcome TO FYP VERSION 1 ");
+
   const handleDownload = async () => {
     if (!result) return;
 
