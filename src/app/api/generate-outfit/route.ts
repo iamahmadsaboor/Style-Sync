@@ -127,7 +127,7 @@ export async function POST(req: NextRequest) {
     });
   } catch (error) {
     console.error("Detailed error information:", {
-      name: error instanceof Error ? error.name : "Unknown Error",
+      name: error instanceof Error ? error.name : "Unknown Error ",
       message: error instanceof Error ? error.message : String(error),
       stack: error instanceof Error ? error.stack : undefined,
       cause:
