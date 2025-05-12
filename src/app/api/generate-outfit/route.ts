@@ -79,7 +79,16 @@ export async function POST(req: NextRequest) {
       headers: { "Content-Type": "image/jpeg" },
     });
   } catch (error) {
-    console.error("API Error:", error);
+    console.error("Detailed error information:", {
+      name: error instanceof Error ? error.name : "Unknown Error",
+      message: error instanceof Error ? error.message : String(error),
+      stack: error instanceof Error ? error.stack : undefined,
+      cause:
+        error instanceof Error
+          ? (error as Error & { cause?: unknown }).cause
+          : undefined,
+    });
+
     return NextResponse.json(
       { error: error instanceof Error ? error.message : "Unexpected error" },
       { status: 500 }
