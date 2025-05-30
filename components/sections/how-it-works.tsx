@@ -1,7 +1,8 @@
 "use client";
 
-import { Check, Upload, Shirt, Sparkles } from "lucide-react";
+import { Check, Upload, Shirt, Sparkles, Clock } from "lucide-react";
 import { motion } from "@/components/ui/motion";
+import Image from "next/image";
 
 const steps = [
   {
@@ -9,24 +10,32 @@ const steps = [
     title: "Upload Your Photo",
     description: "Take a photo or upload an existing one to create your digital model.",
     icon: Upload,
+    imageSrc: "/assets/model-picture.png",
+    imageAlt: "Model for virtual try-on"
   },
   {
     number: "02",
     title: "Browse Clothing Items",
     description: "Browse through thousands of clothing items from various brands.",
     icon: Shirt,
+    imageSrc: "/assets/dress-picture.webp",
+    imageAlt: "Clothing item for try-on"
   },
   {
     number: "03", 
-    title: "See Magic Happen",
-    description: "Our AI technology shows you how the clothes will look on your body.",
-    icon: Sparkles,
+    title: "RapidAPI Processing",
+    description: "Our diffusion-based pipeline processes your images using RapidAPI's Try-On Diffusion technology. This takes 5-10 seconds for optimal results.",
+    icon: Clock,
+    imageSrc: "/assets/processing-image.png",
+    imageAlt: "RapidAPI processing virtual try-on"
   },
   {
     number: "04",
     title: "Shop With Confidence",
-    description: "Make informed purchasing decisions based on your virtual try-on.",
+    description: "Make informed purchasing decisions based on your realistic virtual try-on results.",
     icon: Check,
+    imageSrc: "/assets/resultimage.jpg",
+    imageAlt: "Final try-on result"
   },
 ];
 
@@ -47,6 +56,10 @@ export function HowItWorks() {
             <p className="mt-4 text-lg text-muted-foreground">
               Our simple 4-step process makes virtual try-on easy and accessible to everyone.
             </p>
+            <div className="mt-4 flex items-center justify-center gap-2 text-sm text-muted-foreground bg-muted/50 rounded-lg px-4 py-2 inline-flex">
+              <Clock className="h-4 w-4" />
+              Processing time: 5-10 seconds for optimal results
+            </div>
           </motion.div>
         </div>
 
@@ -82,18 +95,16 @@ export function HowItWorks() {
                 </div>
 
                 <div
-                  className={`rounded-2xl overflow-hidden aspect-video bg-muted ${
+                  className={`rounded-2xl overflow-hidden aspect-video bg-muted relative ${
                     index % 2 === 1 ? "md:order-1" : "md:order-2"
                   }`}
                 >
-                  <img
-                    src={`https://images.pexels.com/photos/${
-                      [2058911, 5704720, 8985539, 5866272][index]
-                    }/pexels-photo-${
-                      [2058911, 5704720, 8985539, 5866272][index]
-                    }.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2`}
-                    alt={`Step ${step.number}`}
-                    className="w-full h-full object-cover"
+                  <Image
+                    src={step.imageSrc}
+                    alt={step.imageAlt}
+                    fill
+                    className={step.number === "04" ? "object-contain" : "object-cover"}
+                    sizes="(max-width: 768px) 100vw, 50vw"
                   />
                 </div>
 

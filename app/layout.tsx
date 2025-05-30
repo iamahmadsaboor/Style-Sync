@@ -16,8 +16,8 @@ export const metadata: Metadata = {
   title: 'StyleSync | Virtual Try-On Platform',
   description: 'Next-generation virtual try-on technology for fashion forward individuals. Experience clothes before you buy them with AI-powered virtual fitting.',
   keywords: ['virtual try-on', 'AI fashion', 'clothing visualization', 'fashion tech', 'StyleSync'],
-  authors: [{ name: 'StyleSync Team' }],
-  creator: 'StyleSync',
+  authors: [{ name: 'Ahmad Saboor', url: 'https://github.com/iamahmadsaboor' }],
+  creator: 'Ahmad Saboor (@iamahmadsaboor)',
   publisher: 'StyleSync',
   metadataBase: new URL('https://stylesync.vercel.app'),
   openGraph: {
@@ -41,7 +41,7 @@ export const metadata: Metadata = {
     title: 'StyleSync | Virtual Try-On Platform',
     description: 'Experience clothes before you buy them with AI-powered virtual fitting.',
     images: ['/og-image.jpg'],
-    creator: '@stylesync',
+    creator: '@iamahmadsaboor',
   },
   robots: {
     index: true,

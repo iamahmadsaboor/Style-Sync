@@ -11,8 +11,8 @@ const features = [
     icon: Camera,
   },
   {
-    title: "Multi-angle View",
-    description: "Rotate and view outfits from different angles for a complete picture.",
+    title: "Drop Return Ratio",
+    description: "Rotate and view outfits improve satisfaction adn drop return reatio.",
     icon: Shapes,
   },
   {
