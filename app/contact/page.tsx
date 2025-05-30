@@ -91,8 +91,8 @@ export default function Contact() {
                 <div>
                   <h3 className="font-medium">Our Location</h3>
                   <p className="text-sm text-muted-foreground mt-1">
-                    123 Fashion Street<br />
-                    New York, NY 10001
+                    Faisalabad, Punjab<br />
+                    Pakistan
                   </p>
                 </div>
               </div>
@@ -104,8 +104,8 @@ export default function Contact() {
                 <div>
                   <h3 className="font-medium">Email Us</h3>
                   <p className="text-sm text-muted-foreground mt-1">
-                    info@stylesync.com<br />
-                    support@stylesync.com
+                    iamahmadsaboor@gmail.com<br />
+                    For inquiries and support
                   </p>
                 </div>
               </div>
@@ -117,8 +117,8 @@ export default function Contact() {
                 <div>
                   <h3 className="font-medium">Call Us</h3>
                   <p className="text-sm text-muted-foreground mt-1">
-                    +1 (555) 123-4567<br />
-                    Mon-Fri, 9am-6pm EST
+                    +92 304 420 755<br />
+                    Available for consultation
                   </p>
                 </div>
               </div>
@@ -130,9 +130,9 @@ export default function Contact() {
                 <div>
                   <h3 className="font-medium">Working Hours</h3>
                   <p className="text-sm text-muted-foreground mt-1">
-                    Monday - Friday: 9am - 6pm<br />
-                    Saturday: 10am - 4pm<br />
-                    Sunday: Closed
+                    Monday - Friday: 9am - 6pm PKT<br />
+                    Saturday: 10am - 4pm PKT<br />
+                    Sunday: Available on request
                   </p>
                 </div>
               </div>

@@ -14,23 +14,23 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title: 'StyleSync | Virtual Try-On Platform',
-  description: 'Next-generation virtual try-on technology for fashion forward individuals. Experience clothes before you buy them with AI-powered virtual fitting.',
-  keywords: ['virtual try-on', 'AI fashion', 'clothing visualization', 'fashion tech', 'StyleSync'],
+  description: 'Next-generation virtual try-on technology powered by RapidAPI. Experience clothes before you buy them with advanced diffusion-based virtual fitting.',
+  keywords: ['virtual try-on', 'RapidAPI', 'clothing visualization', 'fashion tech', 'StyleSync', 'Ahmad Saboor'],
   authors: [{ name: 'Ahmad Saboor', url: 'https://github.com/iamahmadsaboor' }],
   creator: 'Ahmad Saboor (@iamahmadsaboor)',
   publisher: 'StyleSync',
-  metadataBase: new URL('https://stylesync.vercel.app'),
+  metadataBase: new URL('https://style-sync-kappa.vercel.app'),
   openGraph: {
     title: 'StyleSync | Virtual Try-On Platform',
-    description: 'Experience clothes before you buy them with AI-powered virtual fitting.',
-    url: 'https://stylesync.vercel.app',
+    description: 'Experience clothes before you buy them with RapidAPI-powered virtual fitting technology.',
+    url: 'https://style-sync-kappa.vercel.app',
     siteName: 'StyleSync',
     images: [
       {
         url: '/og-image.jpg',
         width: 1200,
         height: 630,
-        alt: 'StyleSync Virtual Try-On Platform',
+        alt: 'StyleSync Virtual Try-On Platform by Ahmad Saboor',
       },
     ],
     locale: 'en_US',
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'StyleSync | Virtual Try-On Platform',
-    description: 'Experience clothes before you buy them with AI-powered virtual fitting.',
+    description: 'Experience clothes before you buy them with RapidAPI-powered virtual fitting technology.',
     images: ['/og-image.jpg'],
     creator: '@iamahmadsaboor',
   },
@@ -53,9 +53,6 @@ export const metadata: Metadata = {
       'max-image-preview': 'large',
       'max-snippet': -1,
     },
-  },
-  verification: {
-    google: 'your-google-verification-code',
   },
 };
 

@@ -14,15 +14,15 @@ export default function Footer() {
               <span className="ml-2 text-xl font-bold text-primary">StyleSync</span>
             </Link>
             <p className="mt-4 text-sm text-muted-foreground max-w-md">
-              StyleSync is a next-generation virtual try-on platform that helps you visualize clothes 
-              on yourself before making a purchase decision. Experience shopping like never before.
+              StyleSync is a next-generation virtual try-on platform powered by RapidAPI technology. 
+              Built by Ahmad Saboor to help you visualize clothes before making a purchase decision.
             </p>
             <div className="mt-6 flex space-x-4">
-              <a href="https://instagram.com" target="_blank" rel="noreferrer" className="text-muted-foreground hover:text-primary">
+              <a href="https://instagram.com/iamahmadsaboor" target="_blank" rel="noreferrer" className="text-muted-foreground hover:text-primary">
                 <span className="sr-only">Instagram</span>
                 <Instagram className="h-5 w-5" />
               </a>
-              <a href="https://twitter.com" target="_blank" rel="noreferrer" className="text-muted-foreground hover:text-primary">
+              <a href="https://twitter.com/iamahmadsaboor" target="_blank" rel="noreferrer" className="text-muted-foreground hover:text-primary">
                 <span className="sr-only">Twitter</span>
                 <Twitter className="h-5 w-5" />
               </a>

@@ -2,16 +2,16 @@
   "name": "stylesync",
   "version": "1.0.0",
   "private": true,
-  "description": "AI-Powered Virtual Try-On Platform - Experience fashion in a whole new way",
-  "keywords": ["virtual-try-on", "AI", "fashion", "nextjs", "typescript", "vercel"],
+  "description": "RapidAPI-Powered Virtual Try-On Platform - Built by Ahmad Saboor",
+  "keywords": ["virtual-try-on", "rapidapi", "fashion", "nextjs", "typescript", "vercel", "ahmad-saboor"],
   "repository": {
     "type": "git",
-    "url": "https://github.com/iamahmadsaboor/Virtual-Try-On"
+    "url": "https://github.com/iamahmadsaboor/Style-Sync"
   },
   "bugs": {
-    "url": "https://github.com/iamahmadsaboor/Virtual-Try-On/issues"
+    "url": "https://github.com/iamahmadsaboor/Style-Sync/issues"
   },
-  "homepage": "https://stylesync.vercel.app",
+  "homepage": "https://style-sync-kappa.vercel.app",
   "engines": {
     "node": ">=18.0.0",
     "npm": ">=8.0.0"

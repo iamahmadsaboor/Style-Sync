@@ -4,11 +4,11 @@
 
 export const APP_CONFIG = {
   name: "StyleSync",
-  description: "AI-Powered Virtual Try-On Platform",
+  description: "RapidAPI-Powered Virtual Try-On Platform",
   version: "1.0.0",
-  author: "StyleSync Team",
-  url: process.env.NEXT_PUBLIC_APP_URL || "https://stylesync.vercel.app",
-  supportEmail: process.env.NEXT_PUBLIC_SUPPORT_EMAIL || "support@stylesync.com",
+  author: "Ahmad Saboor",
+  url: process.env.NEXT_PUBLIC_APP_URL || "https://style-sync-kappa.vercel.app",
+  supportEmail: process.env.NEXT_PUBLIC_SUPPORT_EMAIL || "iamahmadsaboor@gmail.com",
 } as const;
 
 // ===========================================
@@ -166,10 +166,10 @@ export const FEATURES = {
 // ===========================================
 
 export const SOCIAL_LINKS = {
-  twitter: "https://twitter.com/stylesync",
-  instagram: "https://instagram.com/stylesync",
-  linkedin: "https://linkedin.com/company/stylesync",
-  github: "https://github.com/stylesync",
+  twitter: "https://twitter.com/iamahmadsaboor",
+  instagram: "https://instagram.com/iamahmadsaboor",
+  linkedin: "https://linkedin.com/in/iamahmadsaboor",
+  github: "https://github.com/iamahmadsaboor",
 } as const;
 
 // ===========================================
@@ -177,34 +177,35 @@ export const SOCIAL_LINKS = {
 // ===========================================
 
 export const SEO_CONFIG = {
-  title: "StyleSync | AI-Powered Virtual Try-On Platform",
-  description: "Experience clothes before you buy them with our cutting-edge AI virtual try-on technology. Upload your photo and see how any outfit looks on you instantly.",
+  title: "StyleSync | RapidAPI-Powered Virtual Try-On Platform",
+  description: "Experience clothes before you buy them with cutting-edge RapidAPI virtual try-on technology. Upload your photo and see how any outfit looks on you instantly.",
   keywords: [
     "virtual try-on",
-    "AI fashion",
+    "RapidAPI",
     "clothing visualization",
     "fashion technology",
     "style sync",
     "virtual fitting",
-    "fashion AI",
+    "fashion tech",
     "outfit preview",
+    "Ahmad Saboor",
   ],
   openGraph: {
-    title: "StyleSync | Virtual Try-On Platform",
-    description: "Experience clothes before you buy them with AI-powered virtual fitting.",
+    title: "StyleSync | Virtual Try-On Platform by Ahmad Saboor",
+    description: "Experience clothes before you buy them with RapidAPI-powered virtual fitting.",
     images: [
       {
         url: "/og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "StyleSync Virtual Try-On Platform",
+        alt: "StyleSync Virtual Try-On Platform by Ahmad Saboor",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    site: "@stylesync",
-    creator: "@stylesync",
+    site: "@iamahmadsaboor",
+    creator: "@iamahmadsaboor",
   },
 } as const;
 
