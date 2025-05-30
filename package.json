@@ -24,7 +24,7 @@
     "lint": "next lint",
     "lint:fix": "next lint --fix",
     "type-check": "tsc --noEmit",
-    "clean": "rm -rf .next out",
+    "clean": "if exist .next rmdir /s /q .next && if exist out rmdir /s /q out",
     "prebuild": "npm run type-check && npm run lint",
     "preview": "npm run build && npm run start",
     "deploy:vercel": "vercel --prod",
