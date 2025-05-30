@@ -4,6 +4,7 @@ import { Button } from "@/components/ui/button";
 import Link from "next/link";
 import { motion } from "@/components/ui/motion";
 import { Sparkles, ArrowRight } from "lucide-react";
+import Image from "next/image";
 
 export function CtaSection() {
   return (
@@ -17,10 +18,12 @@ export function CtaSection() {
           className="relative rounded-3xl overflow-hidden"
         >
           <div className="absolute inset-0">
-            <img 
+            <Image 
               src="https://images.pexels.com/photos/5868722/pexels-photo-5868722.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
               alt="Fashion background"
-              className="w-full h-full object-cover"
+              fill
+              className="object-cover"
+              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 100vw, 100vw"
             />
             <div className="absolute inset-0 bg-primary/60 mix-blend-multiply" />
           </div>
@@ -31,7 +34,7 @@ export function CtaSection() {
                 Ready to revolutionize your shopping experience?
               </h2>
               <p className="mt-6 text-xl text-white/90">
-                Join thousands of satisfied users who are trying on clothes virtually with StyleSync's AI-powered technology.
+                Join thousands of satisfied users who are trying on clothes virtually with StyleSync&apos;s AI-powered technology.
               </p>
               <div className="mt-10 flex flex-col sm:flex-row gap-4 justify-center">
                 <Button size="lg" className="bg-white text-primary hover:bg-white/90 group" asChild>

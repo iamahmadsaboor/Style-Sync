@@ -51,7 +51,7 @@ export function TestimonialsSection() {
               What Our Users Say
             </h2>
             <p className="mt-4 text-lg text-muted-foreground">
-              Don't just take our word for it — hear from people who have transformed their 
+              Don&apos;t just take our word for it — hear from people who have transformed their 
               online shopping experience with StyleSync.
             </p>
           </motion.div>

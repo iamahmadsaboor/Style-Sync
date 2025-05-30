@@ -6,6 +6,7 @@ import { useEffect, useState } from "react";
 import { cn } from "@/lib/utils";
 import { motion } from "@/components/ui/motion";
 import { Sparkles, ArrowRight } from "lucide-react";
+import Image from "next/image";
 
 export function HeroSection() {
   const [activeImage, setActiveImage] = useState(0);
@@ -107,10 +108,12 @@ export function HeroSection() {
                     activeImage === idx ? "opacity-100" : "opacity-0"
                   )}
                 >
-                  <img
+                  <Image
                     src={src}
                     alt={`Fashion model ${idx + 1}`}
-                    className="object-cover w-full h-full rounded-2xl"
+                    fill
+                    className="object-cover rounded-2xl"
+                    sizes="(max-width: 1024px) 100vw, 50vw"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-background/80 to-transparent rounded-2xl" />
                 </div>

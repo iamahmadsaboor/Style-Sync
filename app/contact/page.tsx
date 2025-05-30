@@ -72,7 +72,7 @@ export default function Contact() {
         </h1>
         <p className="mt-4 text-lg text-muted-foreground">
           Have questions about StyleSync? Want to try our virtual try-on technology?
-          We're here to help you transform your online shopping experience.
+          We&apos;re here to help you transform your online shopping experience.
         </p>
       </motion.div>
 
@@ -285,7 +285,7 @@ export default function Contact() {
                               />
                             </FormControl>
                             <FormDescription>
-                              Please include information about your business, target audience, and any specific features you're interested in.
+                              Please include information about your business, target audience, and any specific features you&apos;re interested in.
                             </FormDescription>
                             <FormMessage />
                           </FormItem>

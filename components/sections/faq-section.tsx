@@ -12,12 +12,12 @@ const faqs = [
   {
     question: "How accurate is the virtual try-on?",
     answer:
-      "Our virtual try-on technology uses advanced AI algorithms to provide a highly accurate representation of how clothes will look on your body. While it's not perfect, most users find it extremely helpful for making purchasing decisions.",
+      "Our virtual try-on technology uses advanced AI algorithms to provide a highly accurate representation of how clothes will look on your body. While it&apos;s not perfect, most users find it extremely helpful for making purchasing decisions.",
   },
   {
     question: "Do I need special equipment to use StyleSync?",
     answer:
-      "No special equipment is needed! StyleSync works on any device with a camera, including smartphones, tablets, and computers with webcams. Just take a photo or upload an existing one, and you're ready to start trying on clothes virtually.",
+      "No special equipment is needed! StyleSync works on any device with a camera, including smartphones, tablets, and computers with webcams. Just take a photo or upload an existing one, and you&apos;re ready to start trying on clothes virtually.",
   },
   {
     question: "Is my personal data secure?",
@@ -27,17 +27,17 @@ const faqs = [
   {
     question: "Which clothing brands are available on StyleSync?",
     answer:
-      "StyleSync partners with a wide range of clothing brands, from popular retail chains to boutique designers. We're constantly expanding our partnerships to offer even more options. You can view the full list of available brands in your account dashboard.",
+      "StyleSync partners with a wide range of clothing brands, from popular retail chains to boutique designers. We&apos;re constantly expanding our partnerships to offer even more options. You can view the full list of available brands in your account dashboard.",
   },
   {
     question: "Can I try on accessories like hats or jewelry?",
     answer:
-      "Currently, StyleSync focuses on clothing items such as shirts, pants, dresses, and outerwear. We're working on expanding our technology to include accessories like hats, jewelry, and eyewear in future updates.",
+      "Currently, StyleSync focuses on clothing items such as shirts, pants, dresses, and outerwear. We&apos;re working on expanding our technology to include accessories like hats, jewelry, and eyewear in future updates.",
   },
   {
     question: "How do I share my virtual try-on with friends?",
     answer:
-      "After creating your virtual try-on, you'll see a 'Share' button that allows you to send the image via email, text message, or social media. You can also save the image to your device and share it manually.",
+      "After creating your virtual try-on, you&apos;ll see a &apos;Share&apos; button that allows you to send the image via email, text message, or social media. You can also save the image to your device and share it manually.",
   },
 ];
 
