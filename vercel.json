@@ -4,14 +4,6 @@
   "installCommand": "npm install",
   "framework": "nextjs",
   "regions": ["iad1"],
-  "functions": {
-    "app/api/generate-outfit/route.ts": {
-      "maxDuration": 60
-    },
-    "app/api/health/route.ts": {
-      "maxDuration": 10
-    }
-  },
   "headers": [
     {
       "source": "/(.*)",
@@ -69,17 +61,6 @@
       "permanent": true
     }
   ],
-  "rewrites": [
-    {
-      "source": "/health",
-      "destination": "/api/health"
-    },
-    {
-      "source": "/healthcheck",
-      "destination": "/api/health"
-    }
-  ],
-  "ignoreCommand": "echo 'No lint step required'",
   "env": {
     "NODE_ENV": "production",
     "NEXT_TELEMETRY_DISABLED": "1"
