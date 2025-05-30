@@ -1,7 +1,6 @@
 {
   "version": 2,
   "buildCommand": "npm run build",
-  "outputDirectory": "out",
   "installCommand": "npm install",
   "framework": "nextjs",
   "regions": ["iad1"],
@@ -78,10 +77,6 @@
     {
       "source": "/healthcheck",
       "destination": "/api/health"
-    },
-    {
-      "source": "/(.*)",
-      "destination": "/index.html"
     }
   ],
   "ignoreCommand": "echo 'No lint step required'",
